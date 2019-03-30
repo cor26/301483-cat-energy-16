@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Александрович Власенко](https://up.htmlacademy.ru/adaptive/16/user/301483).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Валеева](https://htmlacademy.ru/profile/nikkie8)
 
 ---
 
