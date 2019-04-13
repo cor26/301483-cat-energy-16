@@ -1,0 +1,29 @@
+
+.main-nav {
+  position: relative;
+}
+
+.main-nav__toggle:before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  width: 24px;
+  height: 18px;
+  background-image: url("../img/icon-mobile-menu.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.site-list__item {
+  list-style: none;
+}
+
+.site-list__item a {
+  font-size: 20px;
+  line-height: 20px;
+  color: #444444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
