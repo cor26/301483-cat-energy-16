@@ -1,3 +1,10 @@
+@mixin button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #68b738;
+}
 
 .program  {
   display: block;
@@ -6,16 +13,14 @@
   background-position: 0 0;
 }
 
-.program__header  {
-  width: 280px;
-  height: 270px;
+.program-slogan  {
   background-image: url("../img/index-can-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-color: #63a73a;
 }
 
-.program__title {
+.program-slogan__title {
   margin-top: 30px;
   font-size: 36px;
   line-height: 36px;
@@ -24,7 +29,7 @@
   text-align: center;
 }
 
-.program__slogan {
+.program-slogan__text {
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
@@ -32,10 +37,6 @@
   text-align: center;
 }
 
-.program__button {
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
-  font-weight: 400;
-  text-align: center;
+.program-slogan__button {  /*Не ясно, к какому классу применять примесь, ведь глупо снова писать .button*/
+  @include button;
 }
