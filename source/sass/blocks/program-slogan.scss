@@ -1,11 +1,3 @@
-@mixin button {
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  font-weight: 400;
-  background-color: #68b738;
-}
-
 .program {
   display: block;
   background-image: url("../img/index-background-mobile@1x.jpg");
@@ -35,8 +27,4 @@
   color: #ffffff;
   font-weight: 400;
   text-align: center;
-}
-
-.program-slogan__button {  /*Не ясно, к какому классу применять примесь, ведь глупо снова писать .button*/
-  @include button;
 }
