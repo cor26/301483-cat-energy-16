@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.main-nav__toggle:before {
+.main-nav__toggle::before {
   content: "";
   position: absolute;
   top: 23px;
