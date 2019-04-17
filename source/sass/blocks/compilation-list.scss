@@ -1,0 +1,33 @@
+.compilation-list {
+  margin: 0;
+  padding: 0;
+}
+
+.compilation-list__item {
+  background-color: #f2f2f2;
+  list-style: none;
+}
+
+.compilation-list__item-title {
+  font-size: 24px;
+  line-height: 37px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.compilation-list__text {
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  font-weight: inherit;
+}
+
+.compilation-list__link-text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+}
