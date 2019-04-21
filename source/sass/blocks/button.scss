@@ -5,12 +5,13 @@
   vertical-align: middle;
   font-size: 16px;
   line-height: 20px;
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
   background-color: #68b738;
 }
 
-.button--all {   /*Как сделать так, чтоб на данные стили переопределялась?*/
+.button--all {
   color: #444444;
   background-color: #f2f2f2;
 }

@@ -1,17 +1,78 @@
-.program-slogan {
-  background-image: url("../img/index-can-mobile@1x.png");
+.program {
+  display: block;
+  background-image: url("../../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 50% 0;
+}
+
+@media (min-width: $tablet-width) {
+  .program {
+    background-image: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program {
+    display: block;
+    background-image: url("../../img/index-background-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
+}
+
+.program-slogan {
+  height: 310px;
+  width: 320px;
+  margin: 0 auto;
+  background-image: url("../../img/index-can-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-size: 310px;
+  background-position: 50% 0;
   background-color: #63a73a;
 }
 
+@media (min-width: $tablet-width) {
+  .program-slogan {
+    width: 708px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-slogan {
+    width: 1220px;
+  }
+}
+
 .program-slogan__title {
-  margin-top: 30px;
+  margin: 0 auto;
+  width: 280px;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
   font-weight: 400;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .program-slogan__title {
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 60px;
+    color: #111111;
+    font-weight: bold;
+    text-align: start;
+    text-transform: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-slogan__title {
+    width: 430px;
+    margin-left: 80px;
+  }
 }
 
 .program-slogan__text {
@@ -20,4 +81,61 @@
   color: #ffffff;
   font-weight: 400;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .program-slogan__text {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #111111;
+    font-weight: bold;
+    text-align: start;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-slogan__text {
+    width: 430px;
+    margin-left: 80px;
+  }
+}
+
+.program-slogan__button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 280px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .program-slogan__button {
+    display: inline-block;
+    margin: 0;
+    padding: 14px 25px;
+    width: 245px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-slogan__button {
+    margin-left: 80px;
+  }
+}
+
+.program-slogan__button-text {
+  margin: 0;
+  padding: 0;
+  width: 180px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .program-slogan__button-text {
+    width: 200px;
+  }
 }

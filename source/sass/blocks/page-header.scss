@@ -7,3 +7,9 @@
     display: flex;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    margin-right: 540px;
+  }
+}

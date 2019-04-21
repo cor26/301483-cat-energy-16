@@ -2,14 +2,21 @@
   position: relative;
 }
 
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
 .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: 23px;
-  right: 20px;
+  top: -42px;
+  right: 26px;
   width: 24px;
   height: 18px;
   background-image: url("../img/icon-mobile-menu.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
