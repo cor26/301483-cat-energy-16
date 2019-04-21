@@ -2,12 +2,34 @@
   background-color: #f2f2f2;
 }
 
+@media (min-width: $tablet-width) {
+  .slimming-example {
+    background-color: #ffffff;
+  }
+}
+
+.slimming-example__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .slimming-example__wrapper {
+    width: 710px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slimming-example__wrapper {
+    width: 1220px;
+  }
+}
+
 .slimming-example__title {
   font-size: 36px;
   line-height: 60px;
   color: #111111;
   font-weight: bold;
-  text-align: center;
 }
 
 .slimming-example__text {
@@ -17,5 +39,20 @@
   line-height: 18px;
   color: #444444;
   font-weight: normal;
-  text-align: center;
+  text-align: start;
+}
+
+@media (min-width: $tablet-width) {
+  .slimming-example__text {
+    width: 710px;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slimming-example__text {
+    width: 445px;
+    background-color: #f2f2f2;
+    text-align: start;
+  }
 }

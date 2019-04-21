@@ -22,7 +22,6 @@
 
 .program-slogan {
   height: 310px;
-  width: 320px;
   margin: 0 auto;
   background-image: url("../../img/index-can-mobile@1x.png");
   background-repeat: no-repeat;
@@ -85,7 +84,6 @@
 
 @media (min-width: $tablet-width) {
   .program-slogan__text {
-    margin: 0;
     margin: 0;
     padding: 0;
     font-size: 20px;
