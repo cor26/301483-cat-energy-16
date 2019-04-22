@@ -1,0 +1,12 @@
+.page-footer__main-img {
+  display: flex;
+  height: 25px;
+  width: 130px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__item {
+    display: flex;
+  }
+}

@@ -3,6 +3,12 @@
   justify-content: space-between;
 }
 
+@media (min-width: $tablet-width) {
+  .copyright__link {
+    justify-content: inherit;
+  }
+}
+
 .copyright__img {
   height: 34px;
 }
