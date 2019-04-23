@@ -40,7 +40,7 @@
   font-size: 24px;
   line-height: 37px;
   color: #111111;
-  font-weight: bold;
+  font-weight: inherit;
   text-transform: uppercase;
   text-align: center;
 }
@@ -49,6 +49,8 @@
   .compilation-list__item-title {
     margin: 0;
     text-align: start;
+    font-size: 36px;
+    line-height: 37px;
   }
 }
 
@@ -69,6 +71,8 @@
 @media (min-width: $tablet-width) {
   .compilation-list__text {
     width: 375px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -76,6 +80,12 @@
   font-size: 16px;
   line-height: 16px;
   color: #111111;
-  font-weight: bold;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .compilation-list__link-text {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

@@ -1,8 +1,16 @@
-.page-header__logo-image {
+.page-header__logo {
+  display: flex;
+}
+
+.page-header__logo-link {
   display: block;
   height: 40px;
   width: 192px;
-  margin: 10px 20px;
+}
+
+.page-header__logo-image {
+  height: 40px;
+  width: 192px;
 }
 
 @media (min-width: $tablet-width) {

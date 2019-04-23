@@ -16,7 +16,7 @@
     font-size: 60px;
     line-height: 60px;
     color: #111111;
-    font-weight: bold;
+    font-weight: inherit;
     text-align: start;
     text-transform: none;
   }
@@ -44,7 +44,8 @@
     font-size: 20px;
     line-height: 20px;
     color: #111111;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: inherit;
     text-align: start;
   }
 }
@@ -61,6 +62,8 @@
   box-sizing: border-box;
   margin: 0 auto;
   align-items: center;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -68,6 +71,8 @@
     display: inline-block;
     margin: 0;
     padding: 14px 25px;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 

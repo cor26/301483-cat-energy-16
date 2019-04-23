@@ -3,14 +3,13 @@
 }
 
 .main-nav__toggle {
-  display: none;
+  border: 0;
+  background-color: transparent;
 }
 
 .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: -42px;
-  right: 26px;
   width: 24px;
   height: 18px;
   background-image: url("../img/icon-mobile-menu.svg");

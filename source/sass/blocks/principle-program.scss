@@ -4,18 +4,25 @@
   font-size: 36px;
   line-height: 60px;
   color: #111111;
-  font-weight: bold;
+  font-weight: inherit;
   text-align: start;
 }
 
-.principle-program__item {
+@media (min-width: $tablet-width) {
+  .principle-program__slogan {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+.principle-program__list {
   margin: 0;
   padding: 0 0 0 80px;
   list-style: none;
 }
 
 @media (min-width: $tablet-width) {
-  .principle-program__item {
+  .principle-program__list {
     display: flex;
     flex-wrap: wrap;
     width: 708px;
@@ -26,7 +33,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .principle-program__item {
+  .principle-program__list {
     flex-wrap: nowrap;
     width: 1220px;
     padding: 170px 0 130px;
@@ -49,6 +56,8 @@
     width: 260px;
     margin-bottom: 250px;
     padding: 0;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
