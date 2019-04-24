@@ -10,19 +10,14 @@
 }
 
 .compilation-list__item {
-  box-sizing: border-box;
-  width: 320px;
   margin-bottom: 20px;
-  padding: 40px 20px 25px;
   background-color: #f2f2f2;
   list-style: none;
 }
 
 @media (min-width: $tablet-width) {
   .compilation-list__item {
-    width: 710px;
     margin-bottom: 30px;
-    padding: 40px 20px;
   }
 }
 
@@ -30,7 +25,6 @@
   .compilation-list__item {
     width: 570px;
     margin: 0 80px 0 0;
-    padding: 75px 25px 60px;
   }
 }
 
@@ -61,7 +55,6 @@
 }
 
 .compilation-list__text {
-  width: 280px;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -70,7 +63,6 @@
 
 @media (min-width: $tablet-width) {
   .compilation-list__text {
-    width: 375px;
     font-size: 16px;
     line-height: 24px;
   }

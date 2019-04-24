@@ -1,6 +1,5 @@
 .program-slogan__title {
   margin: 0 auto;
-  width: 280px;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
@@ -58,7 +57,7 @@
 }
 
 .program-slogan__button {
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
   margin: 0 auto;
   align-items: center;
@@ -68,7 +67,7 @@
 
 @media (min-width: $tablet-width) {
   .program-slogan__button {
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 14px 25px;
     font-size: 20px;
