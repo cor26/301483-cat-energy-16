@@ -2,12 +2,6 @@
   display: flex;
 }
 
-@media (min-width: $tablet-width) {
-  .contacts {
-    justify-content: space-between;
-  }
-}
-
 .contacts__title {
   margin: 0;
   padding: 0;
@@ -16,14 +10,6 @@
   color: #111111;
   font-weight: inherit;
   text-transform: uppercase;
-}
-
-@media (min-width: $tablet-width) {
-  .contacts__title {
-    width: 160px;
-    font-size: 20px;
-    line-height: 25px;
-  }
 }
 
 .contacts__text {
@@ -36,9 +22,18 @@
 }
 
 @media (min-width: $tablet-width) {
+  .contacts {
+    justify-content: space-between;
+  }
+  .contacts__title {
+    width: 160px;
+    font-size: 20px;
+    line-height: 25px;
+  }
   .contacts__text {
     width: 160px;
     font-size: 16px;
     line-height: 20px;
   }
 }
+
