@@ -44,6 +44,7 @@
     text-align: start;
     text-transform: none;
   }
+
   .program-slogan__text {
     margin: 0;
     padding: 0;
@@ -54,13 +55,15 @@
     font-weight: inherit;
     text-align: start;
   }
+
   .program-slogan__button {
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 14px 25px;
     font-size: 20px;
     line-height: 20px;
   }
+
   .program-slogan__button-text {
     width: 200px;
   }
@@ -71,13 +74,13 @@
     width: 430px;
     margin-left: 80px;
   }
+
   .program-slogan__text {
     width: 430px;
     margin-left: 80px;
   }
+
   .program-slogan__button {
     margin-left: 80px;
   }
 }
-
-

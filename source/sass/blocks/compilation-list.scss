@@ -38,16 +38,19 @@
   .compilation-list__item {
     margin-bottom: 30px;
   }
+
   .compilation-list__item-title {
     margin: 0;
     text-align: start;
     font-size: 36px;
     line-height: 37px;
   }
+
   .compilation-list__text {
     font-size: 16px;
     line-height: 24px;
   }
+
   .compilation-list__link-text {
     font-size: 20px;
     line-height: 20px;
@@ -58,15 +61,13 @@
   .compilation-list {
     display: flex;
   }
+
   .compilation-list__item {
     width: 570px;
     margin: 0 80px 0 0;
   }
+
   .compilation-list__item-title {
     text-align: center;
   }
 }
-
-
-
-

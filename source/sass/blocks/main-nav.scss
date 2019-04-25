@@ -1,6 +1,5 @@
 .main-nav {
   flex-direction: column;
-
 }
 
 .main-nav__toggle {
@@ -20,8 +19,8 @@
 .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 62px;
   width: 24px;
   height: 18px;
   background-image: url("../img/icon-mobile-menu.svg");
