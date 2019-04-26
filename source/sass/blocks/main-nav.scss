@@ -4,6 +4,7 @@
 
 .main-nav__toggle {
   position: relative;
+  margin-top: 12px;
   width: 24px;
   height: 18px;
   border: 0;
@@ -19,8 +20,8 @@
 .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: 10px;
-  left: 62px;
+  top: 0;
+  left: 0;
   width: 24px;
   height: 18px;
   background-image: url("../img/icon-mobile-menu.svg");

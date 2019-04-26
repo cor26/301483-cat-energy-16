@@ -23,11 +23,11 @@
 }
 
 @media (min-width: $tablet-width) {
-.extra-list__item-title {
-  font-size: 20px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
+  .extra-list__item-title {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
 
   .extra-list__value {
     font-size: 16px;
@@ -36,8 +36,18 @@
 }
 
 @media (min-width: $desktop-width) {
-.extra-list__item-title {
-  font-size: 20px;
-  text-transform: uppercase;
-}
+  .extra-list__item-title {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .extra-list__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extra-list__button {
+    width: 245px;
+    box-sizing: border-box;
+  }
 }
