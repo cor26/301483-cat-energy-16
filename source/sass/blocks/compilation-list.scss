@@ -7,6 +7,7 @@
   margin-bottom: 20px;
   background-color: #f2f2f2;
   list-style: none;
+  padding: 40px 20px 20px;
 }
 
 .compilation-list__item-title {
@@ -37,6 +38,7 @@
 @media (min-width: $tablet-width) {
   .compilation-list__item {
     margin-bottom: 30px;
+    padding: 60px 50px;
   }
 
   .compilation-list__item-title {

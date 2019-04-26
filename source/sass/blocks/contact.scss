@@ -1,6 +1,6 @@
 .contacts {
   display: flex;
-  background-color: #f2f2f2;
+
 }
 
 .contacts__title {
@@ -25,6 +25,7 @@
 @media (min-width: $tablet-width) {
   .contacts {
     justify-content: space-between;
+    width: 625px;
   }
 
   .contacts__title {

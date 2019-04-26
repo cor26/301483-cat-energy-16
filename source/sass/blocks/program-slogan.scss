@@ -33,6 +33,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .program-slogan__wrapper {
+    margin-left: 90px;
+  }
+
   .program-slogan__title {
     width: 420px;
     margin: 0;
@@ -72,15 +76,9 @@
 @media (min-width: $desktop-width) {
   .program-slogan__title {
     width: 430px;
-    margin-left: 80px;
   }
 
   .program-slogan__text {
     width: 430px;
-    margin-left: 80px;
-  }
-
-  .program-slogan__button {
-    margin-left: 80px;
   }
 }
