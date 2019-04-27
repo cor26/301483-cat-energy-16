@@ -28,7 +28,8 @@
   font-weight: inherit;
 }
 
-.compilation-list__link-text {
+.compilation-list__link {
+  display: block;
   font-size: 16px;
   line-height: 16px;
   color: #111111;
@@ -53,7 +54,7 @@
     line-height: 24px;
   }
 
-  .compilation-list__link-text {
+  .compilation-list__link {
     font-size: 20px;
     line-height: 20px;
   }
@@ -62,9 +63,12 @@
 @media (min-width: $desktop-width) {
   .compilation-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -80px;
   }
 
   .compilation-list__item {
+    box-sizing: border-box;
     width: 570px;
     margin: 0 80px 0 0;
   }

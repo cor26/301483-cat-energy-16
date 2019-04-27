@@ -1,5 +1,4 @@
 .program__header {
-  display: block;
   margin: 0 auto;
   background-image: url("../../img/index-can-mobile@1x.png"), url("../../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat;
@@ -9,7 +8,6 @@
 
 @media (min-width: $tablet-width) {
   .program__header {
-    width: 708px;
     background-image: url("../../img/index-can-mobile@1x.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -19,8 +17,6 @@
 
 @media (min-width: $desktop-width) {
   .program__header {
-    display: block;
-    width: 1220px;
     background-image: url("../../img/index-can-mobile@1x.png"), url("../../img/index-background-mobile@1x.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: 50% 0, 50% 0;

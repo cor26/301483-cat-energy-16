@@ -16,29 +16,18 @@
 }
 
 .program-slogan__button {
-  display: block;
   box-sizing: border-box;
-  margin: 0 auto;
-  align-items: center;
-  font-size: 14px;
-  line-height: 18px;
-}
-
-.program-slogan__button-text {
-  margin: 0;
-  padding: 0;
-  width: 180px;
   font-size: 14px;
   line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
   .program-slogan__wrapper {
-    margin-left: 90px;
+    width: 490px;
   }
 
   .program-slogan__title {
-    width: 420px;
+    width: 430px;
     margin: 0;
     padding: 0;
     font-size: 60px;
@@ -46,7 +35,6 @@
     color: #111111;
     font-weight: inherit;
     text-align: start;
-    text-transform: none;
   }
 
   .program-slogan__text {
@@ -56,29 +44,27 @@
     line-height: 20px;
     color: #111111;
     text-transform: uppercase;
-    font-weight: inherit;
-    text-align: start;
+    text-align: left;
   }
 
   .program-slogan__button {
     display: inline-block;
-    margin: 0;
     padding: 14px 25px;
     font-size: 20px;
     line-height: 20px;
   }
-
-  .program-slogan__button-text {
-    width: 200px;
-  }
 }
 
 @media (min-width: $desktop-width) {
+  .program-slogan__wrapper {
+    width: 1060px;
+  }
+
   .program-slogan__title {
     width: 430px;
   }
 
   .program-slogan__text {
-    width: 430px;
+    width: 440px;
   }
 }
