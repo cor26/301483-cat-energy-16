@@ -1,12 +1,23 @@
-.main-nav {
+.main-nav__toggle {
   position: relative;
+  margin-top: 12px;
+  width: 24px;
+  height: 18px;
+  border: 0;
+  background-color: transparent;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
 }
 
 .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: 23px;
-  right: 20px;
+  top: 0;
+  left: 0;
   width: 24px;
   height: 18px;
   background-image: url("../img/icon-mobile-menu.svg");

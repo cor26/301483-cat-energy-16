@@ -1,0 +1,23 @@
+.copyright {
+  padding: 0;
+}
+
+.copyright__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    width: 160px;
+  }
+
+  .copyright__link {
+    justify-content: inherit;
+  }
+}
+
+.copyright__img {
+  height: 34px;
+}

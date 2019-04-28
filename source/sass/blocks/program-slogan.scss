@@ -1,12 +1,5 @@
-.program-slogan {
-  background-image: url("../img/index-can-mobile@1x.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-color: #63a73a;
-}
-
 .program-slogan__title {
-  margin-top: 30px;
+  margin: 0 auto;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
@@ -20,4 +13,58 @@
   color: #ffffff;
   font-weight: 400;
   text-align: center;
+}
+
+.program-slogan__button {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .program-slogan__wrapper {
+    width: 530px;
+  }
+
+  .program-slogan__title {
+    width: 430px;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 60px;
+    color: #111111;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .program-slogan__text {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #111111;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .program-slogan__button {
+    display: inline-block;
+    padding: 14px 25px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-slogan__wrapper {
+    width: 1060px;
+  }
+
+  .program-slogan__title {
+    width: 430px;
+  }
+
+  .program-slogan__text {
+    width: 440px;
+  }
 }

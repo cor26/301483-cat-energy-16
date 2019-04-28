@@ -1,0 +1,36 @@
+.page-header {
+  padding-top: 10px;
+}
+
+.page-header__logo {
+  display: flex;
+}
+
+.page-header__logo-link {
+  display: block;
+  margin-right: 60px;
+  height: 40px;
+  width: 192px;
+}
+
+.page-header__logo-image {
+  height: 40px;
+  width: 192px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    display: flex;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    display: flex;
+  }
+
+  .page-header__logo {
+    margin-right: 540px;
+  }
+}

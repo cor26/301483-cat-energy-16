@@ -1,3 +1,8 @@
+.extra-list {
+  margin: 0;
+  padding: 0;
+}
+
 .extra-list__item {
   list-style: none;
 }
@@ -6,7 +11,8 @@
   font-size: 16px;
   line-height: 16px;
   color: #222222;
-  font-weight: 700;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .extra-list__value {
@@ -14,4 +20,34 @@
   line-height: 14px;
   color: #444444;
   font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+  .extra-list__item-title {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  .extra-list__value {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-list__item-title {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .extra-list__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extra-list__button {
+    width: 245px;
+    box-sizing: border-box;
+  }
 }

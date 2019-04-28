@@ -2,5 +2,12 @@
   font-size: 24px;
   line-height: 24px;
   color: #111111;
-  font-weight: 700;
+  font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+  .addition__subtitle {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
