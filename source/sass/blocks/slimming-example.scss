@@ -10,7 +10,7 @@
   font-size: 36px;
   line-height: 60px;
   color: #111111;
-  font-weight: inherit;
+  font-weight: 400;
 }
 
 .slimming-example__text {
@@ -20,7 +20,7 @@
   line-height: 18px;
   color: #444444;
   font-weight: normal;
-  text-align: start;
+  text-align: left;
 }
 
 @media (min-width: $tablet-width) {
@@ -53,6 +53,6 @@
   .slimming-example__text {
     width: 445px;
     background-color: #f2f2f2;
-    text-align: start;
+    text-align: left;
   }
 }
