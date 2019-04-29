@@ -7,6 +7,25 @@
   margin: 0 auto;
 }
 
+.social__link {
+  display: block;
+}
+
+.social__link--vkontakte {
+  width: 30px;
+  height: 16px;
+}
+
+.social__link--instagram {
+  width: 23px;
+  height: 23px;
+}
+
+.social__link--facebook {
+  width: 14px;
+  height: 28px;
+}
+
 .social__item:nth-child(3n) {
   margin-right: 0;
 }
