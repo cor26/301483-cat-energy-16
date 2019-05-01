@@ -4,6 +4,7 @@
 
 .page-header__logo {
   display: flex;
+  padding: 11px 0 16px;
 }
 
 .page-header__logo-link {
@@ -22,6 +23,10 @@
   .page-header {
     display: flex;
     padding-top: 25px;
+  }
+
+  .page-header__logo {
+    padding: 0;
   }
 }
 

@@ -10,6 +10,8 @@
   padding-bottom: 20px;
   text-align: center;
   list-style: none;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .site-list__item a {
@@ -30,7 +32,12 @@
   }
 
   .site-list__item {
-    padding-top: 8px;
+    padding: 8px 0 10px;
+    border: none;
+  }
+
+  .site-list__item--active {
+    border-bottom: 2px solid #68b738;
   }
 
   .site-list__item a {
@@ -43,6 +50,10 @@
 @media (min-width: $desktop-width) {
   .site-list {
     width: 480px;
+  }
+
+  .site-list__item--active {
+    border-bottom: 2px solid #ffffff;
   }
 
   .site-list__item a {
