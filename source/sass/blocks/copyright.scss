@@ -6,6 +6,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #666666;
+}
+
+.copyright__link :hover path {
+  fill: #68b738;
+  color: #666666;
+}
+
+.copyright__link:active {
+  opacity: 0.3;
+}
+
+.copyright__img {
+  height: 34px;
+  fill: #666666;
+  background-color: #666666;
 }
 
 @media (min-width: $tablet-width) {
@@ -16,8 +32,4 @@
   .copyright__link {
     justify-content: inherit;
   }
-}
-
-.copyright__img {
-  height: 34px;
 }

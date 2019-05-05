@@ -2,12 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto 23px;
   padding: 0;
-  margin: 0 auto;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .social__link {
   display: block;
+  padding: 24px 0 26px;
+}
+
+.social__link:hover path {
+  fill: #68b738;
+}
+
+.social__link:active {
+  opacity: 0.3;
 }
 
 .social__link--vkontakte {
