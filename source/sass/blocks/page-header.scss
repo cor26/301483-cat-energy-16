@@ -19,6 +19,14 @@
   width: 192px;
 }
 
+.page-header__logo-link-other:focus {
+  opacity: 0.8;
+}
+
+.page-header__logo-link-other:active {
+  opacity: 0.6;
+}
+
 @media (min-width: $tablet-width) {
   .page-header {
     display: flex;

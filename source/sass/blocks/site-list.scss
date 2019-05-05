@@ -23,6 +23,14 @@
   text-align: center;
 }
 
+.site-list__item-inactive:hover {
+  opacity: 0.6;
+}
+
+.site-list__item-inactive:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-width) {
   .site-list {
     justify-content: space-between;
