@@ -1,5 +1,6 @@
 .page-footer__wrapper {
   background-color: #f2f2f2;
+  padding: 40px 0 25px;
 }
 
 .page-footer__content {
@@ -10,7 +11,15 @@
   display: block;
   width: 130px;
   height: 25px;
-  margin: 0 auto;
+  margin: 0 auto 32px;
+}
+
+.page-footer__main-link:hover {
+  opacity: 0.8;
+}
+
+.page-footer__main-link:active {
+  opacity: 0.6;
 }
 
 .page-footer__main-img {

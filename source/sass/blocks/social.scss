@@ -1,13 +1,42 @@
 .social__list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
+  margin: 0 auto 23px;
   padding: 0;
-  margin: 0 auto;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
-.social__item:nth-child(3n) {
+.social__link {
+  display: block;
+  margin: 24px 0 26px;
+}
+
+.social__link:hover path {
+  fill: #68b738;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}
+
+.social__link--vkontakte {
+  width: 30px;
+  height: 16px;
+}
+
+.social__link--instagram {
+  width: 23px;
+  height: 23px;
+}
+
+.social__link--facebook {
+  width: 14px;
+  height: 28px;
+}
+
+.social__item:last-child {
   margin-right: 0;
 }
 

@@ -1,5 +1,6 @@
 .program-slogan__title {
-  margin: 0 auto;
+  margin: 0 0 15px;
+  padding: 25px 0 0;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
@@ -8,6 +9,8 @@
 }
 
 .program-slogan__text {
+  margin: 0;
+  padding: 0 0 180px;
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
@@ -16,10 +19,35 @@
 }
 
 .program-slogan__button {
+  position: relative;
+  display: block;
   box-sizing: border-box;
+  margin-bottom: 22px;
   font-size: 14px;
   line-height: 18px;
 }
+
+.program-slogan__button::before {
+  content: "";
+  position: absolute;
+  top: -272px;
+  left: -4px;
+  width: 280px;
+  height: 270px;
+  background-image: url("../../img/index-can-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.program-slogan__button:hover {
+  background-color: #5eaa2f;
+}
+
+.program-slogan__button:active {
+  background-color: #5eaa2f;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 @media (min-width: $tablet-width) {
   .program-slogan__wrapper {
