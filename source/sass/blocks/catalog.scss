@@ -66,7 +66,7 @@
   text-align: center;
 }
 
-.catalog__bonus-title:before {
+.catalog__bonus-title::before {
   content: "";
   position: absolute;
   top: 65px;
