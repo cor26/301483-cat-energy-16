@@ -50,13 +50,9 @@
 
 
 @media (min-width: $tablet-width) {
-  .program-slogan__wrapper {
-    width: 530px;
-  }
-
   .program-slogan__title {
     width: 430px;
-    margin: 0;
+    margin: 70px 190px 35px 90px;
     padding: 0;
     font-size: 60px;
     line-height: 60px;
@@ -66,7 +62,7 @@
   }
 
   .program-slogan__text {
-    margin: 0;
+    margin: 0 0 50px 90px;
     padding: 0;
     font-size: 20px;
     line-height: 20px;
@@ -76,10 +72,16 @@
   }
 
   .program-slogan__button {
-    display: inline-block;
+    margin: 0 0 530px 90px;
     padding: 14px 25px;
+    width: 245px;
     font-size: 20px;
     line-height: 20px;
+  }
+  .program-slogan__button::before {
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 }
 

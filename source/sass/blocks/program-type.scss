@@ -1,0 +1,9 @@
+.program-type__list {
+  margin-bottom: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .program-type__list {
+    margin-bottom: 55px;
+  }
+}
