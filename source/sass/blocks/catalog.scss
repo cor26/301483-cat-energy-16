@@ -78,3 +78,9 @@
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog__subtitle {
+    margin-bottom: 170px;
+  }
+}
