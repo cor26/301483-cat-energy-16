@@ -55,15 +55,42 @@
 }
 
 @media (min-width: $tablet-width) {
+  .extra-list__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    padding: 0;
+    border: 1px solid #cdcdcd;
+  }
+
+  .extra-list__item-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    padding: 30px 40px;
+    width: 633px;
+  }
+
   .extra-list__item-title {
+    margin:  0 112px 0 0;
+    width: 285px;
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
   }
 
   .extra-list__value {
+    width: 130px;
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .extra-list__value--field {
+    width: 95px;
+  }
+
+  .extra-list__button {
+    width: 633px;
   }
 }
 

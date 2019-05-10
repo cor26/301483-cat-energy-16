@@ -12,18 +12,9 @@
   font-weight: 400;
 }
 
-.addition__subtitle::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  right: 0;
-  width: 33px;
-  height: 3px;
-  background-color: #68b738;
-}
-
 @media (min-width: $tablet-width) {
   .addition__subtitle {
+    margin: 0 40px 80px;
     font-size: 36px;
     line-height: 36px;
   }
