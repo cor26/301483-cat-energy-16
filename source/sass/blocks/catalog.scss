@@ -103,8 +103,8 @@
     width: 140px;
   }
   .catalog__other-subtitle::before {
-    top: 55px;
-    left: 133px;
+    top: 65px;
+    left: 90px;
     width: 60px;
     height: 60px;
     background-image: url("../../img/icon-plus.svg");
@@ -118,5 +118,12 @@
 
   .catalog__subtitle {
     margin-bottom: 170px;
+  }
+
+  .catalog__bonus-title {
+    padding:  75px 123px 70px 425px;
+    width: 165px;
+    text-align: left;
+    color: black;
   }
 }
