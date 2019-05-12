@@ -125,7 +125,7 @@
     width: 245px;
   }
 
-  .principle-program__item-text:before {
+  .principle-program__item-text::before {
     content: counter(item_number);
     position: absolute;
     top: 30px;
@@ -135,7 +135,7 @@
     min-width: 136px;
     font-size: 290px;
     line-height: 235px;
-    font-family: "Oswald","Arial",sans-serif;
+    font-family: "Oswald", "Arial", sans-serif;
     color: #f2f2f2;
     z-index: -1;
     text-align: center;
@@ -144,14 +144,14 @@
 
 @media (min-width: $desktop-width) {
   .principle-program__slogan {
-    padding: 0 0 170px;
+    padding: 0;
   }
 
   .principle-program__list {
     flex-wrap: nowrap;
-    width: 1220px;
-    margin: 0;
-    padding: 0 0 130px;
+    margin: 0 0 90px;
+    padding: 0;
+    border: none;
   }
 
   .principle-program__item {
@@ -160,6 +160,10 @@
   }
 
   .principle-program__item:nth-child(4n) {
+    margin: 0;
+  }
+
+  .principle-program__item:nth-last-child(2) {
     margin: 0;
   }
 }

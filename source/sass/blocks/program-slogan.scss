@@ -78,6 +78,7 @@
     font-size: 20px;
     line-height: 20px;
   }
+
   .program-slogan__button::before {
     top: 0;
     left: 0;
@@ -86,15 +87,16 @@
 }
 
 @media (min-width: $desktop-width) {
-  .program-slogan__wrapper {
-    width: 1060px;
-  }
-
   .program-slogan__title {
+    margin: 115px auto 35px 80px;
     width: 430px;
   }
 
   .program-slogan__text {
     width: 440px;
+  }
+
+  .program-slogan__button {
+    margin-bottom: 270px;
   }
 }

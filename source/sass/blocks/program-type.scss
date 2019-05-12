@@ -7,3 +7,9 @@
     margin-bottom: 55px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .program-type__list {
+    margin-bottom: 85px;
+  }
+}

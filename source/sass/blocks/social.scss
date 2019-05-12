@@ -45,7 +45,7 @@
   margin-right: 40px;
 }
 
-@media (min-width:$tablet-width ) {
+@media (min-width: $tablet-width) {
   .social__list {
     border: none;
   }
@@ -53,5 +53,4 @@
   .social__link {
     margin: 0;
   }
-
 }
