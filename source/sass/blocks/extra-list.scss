@@ -76,7 +76,6 @@
     width: 285px;
     font-size: 20px;
     line-height: 20px;
-    text-transform: uppercase;
   }
 
   .extra-list__value {
@@ -95,14 +94,24 @@
 }
 
 @media (min-width: $desktop-width) {
-  .extra-list__item-title {
-    font-size: 20px;
-    text-transform: uppercase;
+  .extra-list {
+    width: 895px;
   }
 
-  .extra-list__item {
-    display: flex;
-    justify-content: space-between;
+  .extra-list__item-title {
+    width: 170px;
+    margin-right: 155px;
+  }
+
+   .extra-list__item {
+     margin: 0;
+     border: none;
+     border-top: 1px solid #cdcdcd;;
+   }
+
+  .extra-list__item-wrapper {
+    padding: 0;
+    width: 895px;
   }
 
   .extra-list__button {
