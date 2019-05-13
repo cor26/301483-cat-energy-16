@@ -31,6 +31,8 @@
 }
 
 .extra-list__value {
+  margin: 0;
+  padding: 0;
   width: 190px;
   font-size: 14px;
   line-height: 14px;
@@ -40,7 +42,8 @@
 }
 
 .extra-list__value--field {
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
   width: 90px;
   text-align: end;
 }
@@ -72,10 +75,15 @@
   }
 
   .extra-list__item-title {
-    margin: 0 112px 0 0;
+    margin: 0 115px 25px 0;
     width: 285px;
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .extra-list__table {
+    margin: 0 0 25px 0;
+    padding: 0;
   }
 
   .extra-list__value {
@@ -99,8 +107,8 @@
   }
 
   .extra-list__item-title {
-    width: 170px;
-    margin-right: 155px;
+    width: 245px;
+    margin: 0 73px 0 0;
   }
 
    .extra-list__item {
@@ -110,8 +118,22 @@
    }
 
   .extra-list__item-wrapper {
-    padding: 0;
+    padding: 15px 0;
     width: 895px;
+    align-items: center;
+  }
+
+  .extra-list__table {
+    margin: 0 40px 0 0;
+    padding: 0;
+  }
+
+  .extra-list__value {
+    width: 245px;
+  }
+
+  .extra-list__value--field {
+    width: 40px;
   }
 
   .extra-list__button {

@@ -47,12 +47,12 @@
     border: none;
   }
 
-  .site-list__item--active {
-    border-bottom: 2px solid #68b738;
-  }
-
   .site-list__item:last-child {
     border-bottom: none;
+  }
+
+  .site-list .site-list__item--active {
+    border-bottom: 2px solid #68b738;
   }
 
   .site-list__item a {
@@ -66,14 +66,17 @@
   .site-list {
     width: 480px;
   }
-
-  .site-list__item--active {
+  .main-nav--index .site-list__item--active {
     border-bottom: 2px solid #ffffff;
   }
 
-  .site-list__item a {
+  .main-nav--index .site-list__item-link {
+    color: #ffffff;
+  }
+
+  .site-list__item-link {
     font-size: 20px;
     line-height: 25px;
-    color: #ffffff;
+    color: #111111;
   }
 }
