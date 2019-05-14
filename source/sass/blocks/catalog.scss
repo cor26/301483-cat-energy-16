@@ -152,4 +152,22 @@
     padding: 10px 38px;
   }
 
+  .catalog__bonus {
+    margin: 115px 0 0 80px;
+    width: 245px;
+  }
+
+  .catalog__bonus-title {
+    margin: 185px auto 0;
+    padding: 0;
+    width: 165px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .catalog__bonus-title::before {
+    top: 65px;
+    left: 95px;
+  }
+
 }

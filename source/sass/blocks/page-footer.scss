@@ -38,11 +38,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer__main-link {
+    margin: 0px;
+  }
   .page-footer__item {
     display: flex;
   }
 
   .page-footer__content {
     display: flex;
+    justify-content: space-between;
   }
 }
